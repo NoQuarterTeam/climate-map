@@ -1,0 +1,6 @@
+.mapboxgl-canvas {
+  outline: none;
+}
+.mapboxgl-ctrl-bottom-right {
+  display: none;
+}

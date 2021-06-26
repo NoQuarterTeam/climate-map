@@ -29,3 +29,16 @@ export const API_URL = IS_PRODUCTION
 export const WEB_URL = IS_PRODUCTION ? "climatemap.noquarter.co" : "localhost:3000"
 
 export const SESSION_TOKEN = "climatemap.token"
+
+export const NAV_HEIGHT = 50
+
+export const MAPBOX_TOKEN =
+  "pk.eyJ1Ijoibm9xdWFydGVyIiwiYSI6ImNraHl5czY1dzB5NnMycW1wMWhyaDJjMW0ifQ.e3Doof2xkFEN0tRM_GdfWg"
+
+export const WORLD_BBOX = [
+  [-138.5, -30.0],
+  [49.7, 58.2],
+]
+
+export const MAPBOX_STYLE = "mapbox://styles/noquarter/cklce2b613rgw17sa5keqdhf9"
+export const MAPBOX_STYLE_DARK = "mapbox://styles/noquarter/ckqeb3z940pz117lyh9rxn8fd"

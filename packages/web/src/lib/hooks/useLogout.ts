@@ -4,6 +4,7 @@ import { useRouter } from "next/router"
 
 import { useToast } from "./useToast"
 import { SESSION_TOKEN } from "../config"
+import { MeDocument } from "lib/graphql"
 
 export const useLogout = (redirectPath?: string) => {
   const client = useApolloClient()
@@ -15,6 +16,7 @@ export const useLogout = (redirectPath?: string) => {
       path: "/",
     })
     await router.replace(lazyPath || redirectPath || "/")
+    client.writeQuery({ query: MeDocument, data: { me: null } })
     client.resetStore()
     toast({ description: "Successfully logged out!" })
   }

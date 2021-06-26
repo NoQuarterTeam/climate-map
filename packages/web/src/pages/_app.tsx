@@ -6,9 +6,11 @@ import { ChakraProvider } from "@chakra-ui/react"
 import * as Sentry from "@sentry/react"
 import { Integrations } from "@sentry/tracing"
 import { theme } from "@climate-map/theme"
+import "../assets/stylesheets/index.css"
 
 import { useApollo } from "lib/apollo/client"
 import { IS_PRODUCTION, SENTRY_DSN } from "lib/config"
+import { Nav } from "components/Nav"
 
 if (IS_PRODUCTION) {
   Sentry.init({
@@ -31,6 +33,7 @@ export default function WebApp(props: AppProps<any>) {
       </Head>
       <ChakraProvider theme={theme}>
         <ApolloProvider client={apolloClient}>
+          <Nav />
           <Component {...pageProps} />
         </ApolloProvider>
       </ChakraProvider>

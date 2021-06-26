@@ -7,7 +7,7 @@ if (APP_ENV) {
 } else {
   const hostname = typeof window !== "undefined" && window?.location?.hostname
   if (hostname) {
-    if (hostname.includes("climatemap")) {
+    if (hostname.includes("climate-map")) {
       env = "production"
     } else {
       env = "development"

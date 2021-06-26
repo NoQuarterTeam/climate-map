@@ -55,7 +55,7 @@ export default function Home() {
       </Head>
 
       {loading ? (
-        <Center>
+        <Center minH="100vh">
           <Spinner />
         </Center>
       ) : me ? (

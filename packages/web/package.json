@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@fullstack-boilerplate/web",
+  "name": "@climate-map/web",
   "version": "1.0.0",
   "description": "",
   "scripts": {

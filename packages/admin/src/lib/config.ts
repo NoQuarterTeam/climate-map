@@ -7,7 +7,7 @@ if (APP_ENV) {
 } else {
   const hostname = typeof window !== "undefined" && window?.location?.hostname
   if (hostname) {
-    if (hostname.includes("boilerplate")) {
+    if (hostname.includes("climatemap")) {
       env = "production"
     } else {
       env = "development"
@@ -23,9 +23,9 @@ export const REDIRECT_PATH = "redirect"
 
 export const SENTRY_DSN = "https://5d0371a223bb4509902f8940cb957daf@o204549.ingest.sentry.io/5741383"
 export const API_URL = IS_PRODUCTION
-  ? "https://nq-fullstack-boilerplate.herokuapp.com/graphql"
+  ? "https://nq-climate-map.herokuapp.com/graphql"
   : "http://localhost:5000/graphql"
 
-export const WEB_URL = IS_PRODUCTION ? "admin.boilerplate.noquarter.co" : "localhost:3001"
+export const WEB_URL = IS_PRODUCTION ? "admin.climatemap.noquarter.co" : "localhost:3001"
 
-export const SESSION_TOKEN = "fullstack.boilerplate.admin.token"
+export const SESSION_TOKEN = "climatemap.admin.token"

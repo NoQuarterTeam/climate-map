@@ -60,7 +60,7 @@ function Register() {
   return (
     <Center minH="100vh">
       <Head>
-        <title>Fullstack boilerplate - Register</title>
+        <title>Climate Map - Register</title>
       </Head>
       <Box w={["100%", 400]}>
         <Form onSubmit={onSubmit} {...form}>

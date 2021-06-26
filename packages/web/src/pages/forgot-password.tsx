@@ -44,7 +44,7 @@ export default function ForgotPassword() {
   return (
     <Center minH="100vh">
       <Head>
-        <title>Fullstack boilerplate - Forgot password</title>
+        <title>Climate Map - Forgot password</title>
       </Head>
       <Box w={["100%", 400]}>
         <Form {...form} onSubmit={handleSubmit}>

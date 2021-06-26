@@ -58,7 +58,7 @@ function Login() {
   return (
     <Center minH="100vh">
       <Head>
-        <title>Fullstack boilerplate - Login</title>
+        <title>Climate Map - Login</title>
       </Head>
       <Box w={["100%", 400]}>
         <Form onSubmit={onSubmit} {...form}>

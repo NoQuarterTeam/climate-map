@@ -44,7 +44,7 @@ export default function ResetPassword() {
   return (
     <Center minH="100vh">
       <Head>
-        <title>Fullstack boilerplate - Reset password</title>
+        <title>Climate Map - Reset password</title>
       </Head>
       <Box w={["100%", 400]}>
         <Form {...form} onSubmit={handleSubmit}>

@@ -49,12 +49,12 @@ export default function Home() {
   return (
     <Box>
       <Head>
-        <title>Fullstack boilerplate</title>
+        <title>Climate Map</title>
       </Head>
 
       <Center minH="100vh">
         <VStack spacing={6}>
-          <Heading as="h1">Welcome to the Fullstack boilerplate</Heading>
+          <Heading as="h1">Welcome to the Climate Map</Heading>
 
           {loading ? (
             <Center>

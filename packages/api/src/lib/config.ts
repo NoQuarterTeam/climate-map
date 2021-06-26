@@ -9,9 +9,10 @@ export const {
   SENTRY_DSN = "SENTRY_DSN",
   SENDGRID_API_KEY = "SENDGRID_API_KEY",
   PORT = 5000,
-  DATABASE_URL = "",
-  WEB_URL = "localhost:3001",
-  REDIS_URL = "",
+  DATABASE_URL = "DATABASE_URL",
+  WEB_URL = "localhost:3000",
+  ADMIN_URL = "localhost:3001",
+  REDIS_URL = "REDIS_URL",
 } = process.env
 
 // IS PRODUCTION

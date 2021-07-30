@@ -36,7 +36,7 @@
     "@sentry/tracing": "6.10.0",
     "apollo-server-express": "2.25.2",
     "bcryptjs": "2.4.3",
-    "chalk": "4.1.1",
+    "chalk": "4.1.2",
     "class-transformer": "0.4.0",
     "class-validator": "0.13.1",
     "dataloader": "2.0.0",

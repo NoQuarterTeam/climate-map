@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@apollo/client@3.4.2":
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/@apollo/client/-/client-3.4.2.tgz#f1d62928c58b329b535b3531b39aa6893621781e"
-  integrity sha512-NHh9yIQ1AdLiAeiT42Zx2/6ktj09UOh85CM4yPkd6iyzR2cls36znoJvIApXutv7TfBiGSvTQLju9NW+N+EHHQ==
+"@apollo/client@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@apollo/client/-/client-3.4.3.tgz#2a82b2153e3b9f2c0a75ee1fe6bd2170f277c696"
+  integrity sha512-6Av/nDR+GI8fPE5XgT6VEvUve868rDGX9IcxdjZVGxqc4+yw0g+6f2r78P2wHtBUQOBqsmOWLGsGuBCC9tsyiA==
   dependencies:
     "@graphql-typed-document-node/core" "^3.0.0"
     "@wry/context" "^0.6.0"
@@ -6288,10 +6288,10 @@ eslint-module-utils@^2.6.1:
     debug "^3.2.7"
     pkg-dir "^2.0.0"
 
-eslint-plugin-flowtype@5.8.2:
-  version "5.8.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-5.8.2.tgz#e8c4429f2d39d93ccb0732f581b159da16fa0bda"
-  integrity sha512-/aPTnNKNAYJbEU07HwvohnXp0itBT+P0r+7s80IG5eqfsrx4NLN+0rXNztJBc56u1RJegSn0GMt1cZnGZpCThw==
+eslint-plugin-flowtype@5.9.0:
+  version "5.9.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-5.9.0.tgz#8d2d81d3d79bb53470ed62b97409b31684757e30"
+  integrity sha512-aBUVPA5Wt0XyuV3Wg8flfVqYJR6yR2nRLuyPwoTjCg5VTk4G1X1zQpInr39tUGgRxqrA+d+B9GYK4+/d1i0Rfw==
   dependencies:
     lodash "^4.17.15"
     string-natural-compare "^3.0.1"

@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@apollo/client@3.4.7":
-  version "3.4.7"
-  resolved "https://registry.yarnpkg.com/@apollo/client/-/client-3.4.7.tgz#63d7c3539cc45fe44ac9cb093a27641479a8d1ad"
-  integrity sha512-EmqGxXD8hr05cIFWJFwtGXifc+Lo8hTCEuiaQMtKknHszJfqIFXSxqP+H+eJnjfuoxH74aTSsZKtJlnE83Vt6w==
+"@apollo/client@3.4.8":
+  version "3.4.8"
+  resolved "https://registry.yarnpkg.com/@apollo/client/-/client-3.4.8.tgz#66d06dc1784d07d46731b3bda546046f8c280b74"
+  integrity sha512-/cNqTSwc2Dw8q6FDDjdd30+yvhP7rI0Fvl3Hbro0lTtFuhzkevfNyQaI2jAiOrjU6Jc0RbanxULaNrX7UmvjSQ==
   dependencies:
     "@graphql-typed-document-node/core" "^3.0.0"
     "@wry/context" "^0.6.0"
@@ -7899,10 +7899,10 @@ invariant@^2.2.4:
   dependencies:
     loose-envify "^1.0.0"
 
-ioredis@4.27.7:
-  version "4.27.7"
-  resolved "https://registry.yarnpkg.com/ioredis/-/ioredis-4.27.7.tgz#11bf2947e23a0e8055931afa7c2da89fc48c8ff3"
-  integrity sha512-lqvFFmUyGIHlrNyDvBoakzy1+ioJzNyoP6CP97GWtdTjWq9IOAnv6l0HUTsqhvd/z9etGgtrDHZ4kWCMAwNkug==
+ioredis@4.27.8:
+  version "4.27.8"
+  resolved "https://registry.yarnpkg.com/ioredis/-/ioredis-4.27.8.tgz#822c2d1ac44067a8f7b92fb673070fc9d661c56e"
+  integrity sha512-AcMEevap2wKxNcYEybZ/Qp+MR2HbNNUwGjG4sVCC3cAJ/zR9HXKAkolXOuR6YcOGPf7DHx9mWb/JKtAGujyPow==
   dependencies:
     cluster-key-slot "^1.1.0"
     debug "^4.3.1"

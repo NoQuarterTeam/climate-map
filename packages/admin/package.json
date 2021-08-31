@@ -54,7 +54,7 @@
     "@types/cookie": "0.4.1",
     "@types/react": "17.0.19",
     "@types/react-dom": "17.0.9",
-    "eslint-config-next": "11.1.1",
+    "eslint-config-next": "11.1.2",
     "eslint-config-react-app": "6.0.0",
     "eslint-plugin-react": "7.25.1",
     "eslint-plugin-react-hooks": "4.2.0"

@@ -37,7 +37,7 @@
     "@sentry/tracing": "6.13.2",
     "dayjs": "1.10.7",
     "framer-motion": "4.1.17",
-    "mapbox-gl": "2.4.1",
+    "mapbox-gl": "2.5.0",
     "next": "11.1.2",
     "next-transpile-modules": "8.0.0",
     "react": "17.0.2",
